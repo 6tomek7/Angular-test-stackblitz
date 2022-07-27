@@ -27,6 +27,7 @@ import { ProductsWithJsonComponent } from './products-with-json/products-with-js
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
+      { path: 'products-with-json', component: ProductsWithJsonComponent}
     ]),
   ],
 
