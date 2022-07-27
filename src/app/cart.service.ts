@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Product } from './products';
+import { stringify } from 'querystring';
 
 /* . . . */
 @Injectable({ providedIn: 'root' })
@@ -11,6 +12,10 @@ export class CartService {
   ) {}
   getShippingPrices() {
     return this.http.get<{type: string, price: number}[]>('/assets/shipping.json');
+  }
+
+  getProducts() {
+    return this.http.get<{id: Number, name: String, price: Number, description: String}[]>('/assets/products.json')
   }
   
  

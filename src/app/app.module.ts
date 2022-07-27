@@ -11,8 +11,8 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { CartComponent } from './cart/cart.component';
 import { CartService } from './cart.service';
 import { ShippingComponent } from './shipping/shipping.component';
-import { ApiTestComponent } from './api-test/api-test.component';
 import { ConfigComponent } from './config/config.component';
+import { ProductsWithJsonComponent } from './products-with-json/products-with-json.component';
 
 
 @NgModule({
@@ -38,8 +38,8 @@ import { ConfigComponent } from './config/config.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    ApiTestComponent,
     ConfigComponent,
+    ProductsWithJsonComponent,
   ],
   bootstrap: [AppComponent],
 })

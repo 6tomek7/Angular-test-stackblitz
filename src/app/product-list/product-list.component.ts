@@ -7,6 +7,7 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
+  array = ["product1", "product2", "product3"]
 
   products = [...products];
 
@@ -19,9 +20,3 @@ export class ProductListComponent {
   }
 }
 
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
